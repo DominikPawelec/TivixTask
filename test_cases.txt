@@ -1,0 +1,18 @@
+Scenario: Fill all the correct data - Happy Path
+Given Website is opened
+   And All data is available on the database
+When All the data is correctly inserted
+Then Information about successfull car renting appears
+
+Scenario: Insert earlier dropoff date than pickup
+Given Website is opened
+   And All data is available on the database
+   And Country and city are correctly picked
+When choosing pickup date "bigger" than dropoff date
+Then Please enter a valid date! information appears and user is unable to pick a car for rent
+
+Scenario: Providing an invalid email in summary tab
+Given Rent website is opened
+   And Name, Last name and Card number are correctly provided
+When User insert wrong email without @
+Then Please provide valid email information appears and email-bar is cleaned

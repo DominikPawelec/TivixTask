@@ -1,0 +1,17 @@
+1. Germainy instead of Germany, wrong country name
+
+2. It doesnt matter what is written in the model, i assume model should show only models for example Suzuki should show only Suzukis
+
+3. It is possible to pick a pickup date older than current day
+
+4. Lots of load errors, webpage is very unstable
+
+5. Every bar on rent page always cleans (i dont know maybe its a feature, in my opinion a bug). For example filling with correct data almost everything except for email, everything cleanses
+
+6. We can provide in name and lastname digits which is weird but not a bug, still should be advised not to do so
+
+7. Picking a country actaully doesn't change anything, i think it should be that way that, once the webpage is opened, there is default value is empty, and then once the country is picked, dropdown loads for certain country with a correct cities
+
+8. There is no model name in the summary tab, this is important and should be added there, also total price not only price per day
+
+9. When we want to rent a car, there should be some page or alert that we successfully managed to do so, we have a 404 instead
